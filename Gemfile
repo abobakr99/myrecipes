@@ -38,6 +38,10 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Adding JQuery
 gem 'jquery-rails'
+#
+gem 'solargraph', group: :development
+gem 'rubocop', group: :development
+
 
 group :development, :test do
   gem 'sqlite3'
@@ -63,7 +67,6 @@ group :test do
 end
 group :production do
   gem 'pg'
-
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
