@@ -1,6 +1,6 @@
 class MessagesController < ApplicationController
     before_action :require_user
-  
+
     def create
       @message = Message.new(message_params)
       @message.chef = current_chef
