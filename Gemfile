@@ -43,6 +43,9 @@ gem 'jquery-rails'
 gem 'solargraph', group: :development
 gem 'rubocop', group: :development
 
+gem 'carrierwave', '0.11.2'
+gem 'mini_magick'
+gem 'fog'
 
 group :development, :test do
   gem 'sqlite3'
