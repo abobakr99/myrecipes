@@ -45,7 +45,7 @@ gem 'rubocop', group: :development
 
 gem 'carrierwave', '0.11.2'
 gem 'mini_magick'
-gem 'fog'
+#gem 'fog'
 
 group :development, :test do
   gem 'sqlite3'
@@ -73,6 +73,8 @@ end
 group :production do
   gem 'pg'
   gem 'redis'
+  gem 'fog'
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
