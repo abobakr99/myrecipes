@@ -8,6 +8,5 @@ if Rails.env.production?
         :region =>'ca-central-1'
     }
         config.fog_directory = ENV['S3_BUCKET'] 
-        config.fog_use_ssl_for_aws = false
     end
  end
