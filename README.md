@@ -1,5 +1,5 @@
 # MYRECIPES
-[MYRECIPES](https://abobakr-myrecipes.herokuapp.com/) is a web app for creating recipes. Users in this platfrom can view, like , and dislike recipes.The app enables user interaction such as commenting and messaging.
+[MYRECIPES](https://abobakr-myrecipes.herokuapp.com/) is a web app for creating recipes. Users view, like , and dislike recipes.The app enables user interaction such as commenting and messaging.
 # Tech/framework used
 * Rails 5.2.4
 * Ruby 2.5.1
